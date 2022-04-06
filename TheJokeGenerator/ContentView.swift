@@ -2,33 +2,14 @@
 //  ContentView.swift
 //  TheJokeGenerator
 //
-//  Created by Alex Murphy on 4/1/22.
+//  Created by Alex Murphy on 4/6/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView{
-            ZStack{
-                Color.yellow.edgesIgnoringSafeArea(.all)
-                VStack{
-                    Text("The Joke Generator")
-                        .foregroundColor(Color.blue)
-                        .font(Font.custom("SignPainter", size: 60))
-                        .offset(x: 0, y: -75)
-                        .multilineTextAlignment(.center)
-                    ScrollView{
-                        Button("Animals", action: {
-                            print("here")
-                        })
-                        
-                        
-                    }
-                }
-            }
-            .edgesIgnoringSafeArea(.horizontal)
-        }
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 

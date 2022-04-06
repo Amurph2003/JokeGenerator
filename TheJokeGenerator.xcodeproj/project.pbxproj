@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		3A85FC9F27F7FFB000FC1367 /* TheJokeGeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85FC9E27F7FFB000FC1367 /* TheJokeGeneratorApp.swift */; };
-		3A85FCA127F7FFB000FC1367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85FCA027F7FFB000FC1367 /* ContentView.swift */; };
 		3A85FCA327F7FFB300FC1367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A85FCA227F7FFB300FC1367 /* Assets.xcassets */; };
 		3A85FCA627F7FFB300FC1367 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A85FCA527F7FFB300FC1367 /* Preview Assets.xcassets */; };
+		3A85FCB927FDFDEB00FC1367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A85FCB827FDFDEB00FC1367 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A85FC9B27F7FFB000FC1367 /* TheJokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheJokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A85FC9E27F7FFB000FC1367 /* TheJokeGeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheJokeGeneratorApp.swift; sourceTree = "<group>"; };
-		3A85FCA027F7FFB000FC1367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A85FCA227F7FFB300FC1367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A85FCA527F7FFB300FC1367 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A85FCB827FDFDEB00FC1367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				3A85FC9E27F7FFB000FC1367 /* TheJokeGeneratorApp.swift */,
-				3A85FCA027F7FFB000FC1367 /* ContentView.swift */,
+				3A85FCB827FDFDEB00FC1367 /* ContentView.swift */,
 				3A85FCA227F7FFB300FC1367 /* Assets.xcassets */,
 				3A85FCA427F7FFB300FC1367 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A85FCA127F7FFB000FC1367 /* ContentView.swift in Sources */,
+				3A85FCB927FDFDEB00FC1367 /* ContentView.swift in Sources */,
 				3A85FC9F27F7FFB000FC1367 /* TheJokeGeneratorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
